@@ -27,9 +27,9 @@ public class Program {
 		System.out.println("Informe quanto desse produto voce deseja retirar");
 		product.removeQuantity = sc.nextInt();
 		product.viewDataProductRemove();
-	
 		
-		sc.close();
+		
+		
 		
 		
 	}
