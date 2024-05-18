@@ -29,7 +29,7 @@ public class Program {
 		product.viewDataProductRemove();
 		
 		
-		
+		sc.close();
 		
 		
 	}
