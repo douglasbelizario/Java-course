@@ -1,4 +1,4 @@
-package methods.triangle_area.entities;
+package classes_methods_attributes.triangle_area.entities;
 
 public class Triangle {
 	

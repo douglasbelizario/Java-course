@@ -1,8 +1,8 @@
-package methods.triangle_area.application;
+package classes_methods_attributes.triangle_area.application;
 
 import java.util.Scanner;
 
-import methods.triangle_area.entities.Triangle;
+import classes_methods_attributes.triangle_area.entities.Triangle;
 
 public class Program {
 
