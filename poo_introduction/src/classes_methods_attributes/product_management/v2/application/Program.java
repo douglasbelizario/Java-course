@@ -19,17 +19,17 @@ public class Program {
 		System.out.println("Informe a quantidade desse produto");
 		product.quantity = sc.nextInt();
 		
-		System.out.println(product.ToString());
+		System.out.println(product);
 		
 		System.out.println("Informe quanto desse produto voce deseja acrescentar");
 		int quantity = sc.nextInt();
 		product.addQuantity(quantity);
 		
-		System.out.println(product.ToString());
+		System.out.println(product);
 		System.out.println("Informe quanto desse produto voce deseja retirar");
 		quantity = sc.nextInt();
 		product.removeQuantity(quantity);
-		System.out.println(product.ToString());
+		System.out.println(product);
 		
 		sc.close();
 

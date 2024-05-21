@@ -19,12 +19,12 @@ public class Product {
 		this.quantity -= quantity;
 	}
 	
-	public String ToString() {
+	public String toString() {
 				
 		return "Name: "+ name+
 				"\nPrice: $"+String.format("%.2f", price)+
-				"\nQuantity: $"+quantity+
-				"\nTotal: "+String.format("%.2f", priceToQuantity());
+				"\nQuantity: "+quantity+
+				"\nTotal: $"+String.format("%.2f", priceToQuantity());
 				
 	}
 
