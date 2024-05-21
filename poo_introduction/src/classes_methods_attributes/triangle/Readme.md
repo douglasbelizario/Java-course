@@ -1,5 +1,5 @@
 
-# Exercício 2: Employee salary
+# Exercício 0.1: Triangle measurements
 
-É um programa para ler os dados de um funcionário (nome, salário bruto e imposto). Em seguida, mostrar os dados do funcionário (nome e salário líquido). Em seguida, aumentar o salário do funcionário com base em uma porcentagem dada (somente o salário bruto é afetado pela porcentagem) e mostrar novamente os dados do funcionário.
+O programa permite que o usuário insira os lados de dois triângulos, calcule suas áreas e compare qual triângulo possui a maior área. A interação é feita através do console, onde o usuário insere os valores dos lados dos triângulos e o programa exibe o resultado da comparação das áreas.
 
