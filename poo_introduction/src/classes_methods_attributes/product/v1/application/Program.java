@@ -1,8 +1,8 @@
-package classes_methods_attributes.product_management.v2.application;
+package classes_methods_attributes.product.v1.application;
 
 import java.util.Scanner;
 
-import classes_methods_attributes.product_management.v2.entities.Product;
+import classes_methods_attributes.product.v1.entities.Product;
 
 public class Program {
 
@@ -11,28 +11,27 @@ public class Program {
 		Scanner sc = new Scanner(System.in);
 		Product product = new Product();
 		
-		
 		System.out.println("Informe o nome do produto:");
 		product.name = sc.next();
 		System.out.println("Informe o valor do produto");
 		product.price = sc.nextDouble();
+		
 		System.out.println("Informe a quantidade desse produto");
 		product.quantity = sc.nextInt();
-		
-		System.out.println(product);
+		product.viewDataProduct();
 		
 		System.out.println("Informe quanto desse produto voce deseja acrescentar");
-		int quantity = sc.nextInt();
-		product.addQuantity(quantity);
+		product.addQuantity = sc.nextInt();
+		product.viewDataProductAdd();
 		
-		System.out.println(product);
 		System.out.println("Informe quanto desse produto voce deseja retirar");
-		quantity = sc.nextInt();
-		product.removeQuantity(quantity);
-		System.out.println(product);
+		product.removeQuantity = sc.nextInt();
+		product.viewDataProductRemove();
+		
 		
 		sc.close();
-
+		
+		
 	}
 
 }

@@ -1,4 +1,4 @@
-package classes_methods_attributes.rectangle_measurements.entities;
+package classes_methods_attributes.rectangle.entities;
 
 public class Rectangle {
 	

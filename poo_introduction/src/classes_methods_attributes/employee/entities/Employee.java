@@ -1,4 +1,4 @@
-package classes_methods_attributes.employee_salary.entities;
+package classes_methods_attributes.employee.entities;
 
 public class Employee {
 	

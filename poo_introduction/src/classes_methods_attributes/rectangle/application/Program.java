@@ -1,8 +1,8 @@
-package classes_methods_attributes.rectangle_measurements.application;
+package classes_methods_attributes.rectangle.application;
 
 import java.util.Scanner;
 
-import classes_methods_attributes.rectangle_measurements.entities.Rectangle;
+import classes_methods_attributes.rectangle.entities.Rectangle;
 
 public class Program {
 

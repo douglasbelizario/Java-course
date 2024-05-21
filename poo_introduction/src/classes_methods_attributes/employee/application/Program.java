@@ -1,8 +1,8 @@
-package classes_methods_attributes.employee_salary.application;
+package classes_methods_attributes.employee.application;
 
 import java.util.Scanner;
 
-import classes_methods_attributes.employee_salary.entities.Employee;
+import classes_methods_attributes.employee.entities.Employee;
 
 public class Program {
 

@@ -1,4 +1,4 @@
-package classes_methods_attributes.student_note.entities;
+package classes_methods_attributes.student.entities;
 
 public class Student {
 	

@@ -1,8 +1,8 @@
-package classes_methods_attributes.student_note.application;
+package classes_methods_attributes.student.application;
 
 import java.util.Scanner;
 
-import classes_methods_attributes.student_note.entities.Student;
+import classes_methods_attributes.student.entities.Student;
 
 public class Program {
 

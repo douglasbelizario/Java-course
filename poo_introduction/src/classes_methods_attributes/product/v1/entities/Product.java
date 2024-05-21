@@ -1,4 +1,4 @@
-package classes_methods_attributes.product_management.v1.entities;
+package classes_methods_attributes.product.v1.entities;
 
 public class Product {
 	
